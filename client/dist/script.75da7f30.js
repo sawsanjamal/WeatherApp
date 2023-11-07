@@ -24981,7 +24981,7 @@ function renderHourlyWeather(hourly) {
     setValue("fl-temp", hour.feelsLike, {
       parent: element
     });
-    setValue("wind", hour.windSpeed, {
+    setValue("wind", hour.windspeed, {
       parent: element
     });
     setValue("precip", hour.precip, {
